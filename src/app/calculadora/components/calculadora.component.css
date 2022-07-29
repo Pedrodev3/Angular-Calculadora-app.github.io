@@ -13,3 +13,8 @@ padding: 20px;
 .col-xs-3, .col-xs-9 {
 padding: 0px;
 }
+
+button
+{
+  color:  #000;
+}
