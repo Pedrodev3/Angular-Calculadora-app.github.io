@@ -4,10 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CalculadoraService {
-  static readonly SOMA: string = 'SOMA';
-  static readonly SUBTRACAO: string = 'SUBTRACAO';
-  static readonly DIVISAO: string = 'DIVISAO';
-  static readonly MULTIPLICACAO: string = 'MULTIPLICACAO';
+  static readonly SOMA: string = '+';
+  static readonly SUBTRACAO: string = '-';
+  static readonly DIVISAO: string = '/';
+  static readonly MULTIPLICACAO: string = '*';
 
   constructor() {}
 
@@ -30,7 +30,7 @@ export class CalculadoraService {
       default:
         resultado = 0;
     }
-    
+
     return resultado;
   }
 }
